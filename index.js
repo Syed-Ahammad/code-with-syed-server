@@ -12,6 +12,12 @@ app.get('/', (req, res)=>{
 
 app.get('/courses', (req, res)=>{
     res.send(allCourses);
+});
+
+app.get('/courses/:id', (req, res)=>{
+    const id = req.params.id;
+    const getCourse = allCourses.find(course => course.id == id);
+    res.send(getCourse);
 })
 
 const Port = process.env.port || 5000;
