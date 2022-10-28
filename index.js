@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const allCourses = require('./Data/courses.json');
-
+const blogs = require('./Data/blogs/blogs.json');
 
 const app = express();
 app.use(cors());
@@ -12,6 +12,10 @@ app.get('/', (req, res)=>{
 
 app.get('/courses', (req, res)=>{
     res.send(allCourses);
+});
+
+app.get('/blogs', (req, res)=>{
+    res.send(blogs);
 });
 
 app.get('/courses/:id', (req, res)=>{

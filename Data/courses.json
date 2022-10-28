@@ -2,10 +2,11 @@
     {
         "id": 1,
         "title": "React",
-        "price": 109.95,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "price": 99,
+        "description": "Understand React inside out and boost your career prospects.",
         "category": "react",
         "image": "http://developerpitstop.com/wp-content/uploads/2021/07/React.png",
+        "cat_icon": "./img/react.svg",
         "rating": {
             "rate": 3.9,
             "count": 120
@@ -14,10 +15,11 @@
     {
         "id": 2,
         "title": "Javascript",
-        "price": 22.3,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "price": 199,
+        "description": "Learn and build projects with pure JavaScript (No frameworks or libraries).",
         "category": "javascript",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+        "cat_icon": "",
         "rating": {
             "rate": 4.1,
             "count": 259
@@ -26,10 +28,11 @@
     {
         "id": 3,
         "title": "Node JS",
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "price": 59,
+        "description": "Learn to build highly-scalable, fast and secure RESTful APIs with Node, Express, and MongoDB.",
         "category": "node_js",
         "image": "https://www.brainfuel.io/images/node-js-new.png",
+        "cat_icon": "",
         "rating": {
             "rate": 4.7,
             "count": 500
@@ -38,10 +41,11 @@
     {
         "id": 4,
         "title": "Digital Marketing",
-        "price": 15.99,
-        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "price": 99,
+        "description": "Master Digital Marketing Strategy, Social Media Marketing, SEO, YouTube, Email, Facebook Marketing, Analytics & More!",
         "category": "digital_marketing",
         "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/1a3c0c18546659.562cb438b98a8.png",
+        "cat_icon": "",
         "rating": {
             "rate": 2.1,
             "count": 430
@@ -50,10 +54,11 @@
     {
         "id": 5,
         "title": "Phython",
-        "price": 695,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "price": 195,
+        "description": "Everything you need to program in Python in one course (includes 3 real-world projects).",
         "category": "phython",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+        "cat_icon": "",
         "rating": {
             "rate": 4.6,
             "count": 400
@@ -62,10 +67,11 @@
     {
         "id": 6,
         "title": "Angular",
-        "price": 168,
-        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "price": 68,
+        "description": "Build professional, interactive apps with Angular - the most popular framework for building web apps.",
         "category": "angular",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
+        "cat_icon": "./img/react.svg",
         "rating": {
             "rate": 3.9,
             "count": 70
