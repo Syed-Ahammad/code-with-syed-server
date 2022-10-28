@@ -2,23 +2,24 @@
     {
         "ques":"What is cors?",
         "ans": "Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served A web page may freely embed cross-origin images stylesheets scripts iframes and videos. Certain cross domain requests notably Ajax request are forbidden by default by the same-origin security policy. CORS defines a way in which a browser and server can interact to determine whether it is safe to allow the cross-origin request.[3] It allows for more freedom and functionality than purely same-origin requests but is more secure than simply allowing all cross-origin requests.",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+        "id": 1
     },
     {
         "ques":"Why are you using firebase? What other options do you have to implement authentication?",
         "ans": "Google Firebase offers many features that pitch it as the go-to backend development tool for web and mobile apps. It reduces development workload and time. And it's a perfect prototyping tool. Firebase is simple lightweight, friendly and industrially recognized. Indeed Firebase is a less technical and time-saving alternative to writing full-fledged backend code for dynamic apps. You might also want to consider leveraging this tool if you eventually wish to host and manage your app in the cloud. Being serverless Firebase removes the need to worry about the technicalities of cloud server configuration. As a Google Cloud service it also gives you access to other Google products and features like Google Drive and Sheets. For instance you can import dummy data from Google Sheets and use it temporarily to serve your app.With Firebase it's pretty simple to connect and use built-in third-party authentication providers including Google Facebook Twitter among others. And if you want to use a pre-built authentication UI you have it at your disposal as well. All of these can save you a significant, amount of development cost as you don't need to pay as high as developing from scratch. Firebase pricing is equally flexible. Although there are pay-as-you-go services you can start on a free plan and use primary features if your app is still at its prime. Firebase is a good choice if you want to deploy a working product on the cloud rapidly. Plus as mentioned you might want to try it out if you need a backend but don't have a backend development background. Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints.",
         "photo": "http://developerpitstop.com/wp-content/uploads/2021/07/React.png",
-        "cat_icon": "./img/react.svg"
+       "id": 2
     },
     {
         "ques":"How does the private route work?",
         "ans": "The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property.",
         "photo": "http://developerpitstop.com/wp-content/uploads/2021/07/React.png",
-        "cat_icon": "./img/react.svg"
+        "id":3
     },
     {
         "ques": "What is Node? How does Node work?",
         "ans": "Node.js is an open-source backend javascript runtime environment. It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node.js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive.Working of Node.js: Node.js accepts the request from the clients and sends the response, while working with the request node.js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads. Thread is a sequence of instructions that the server needs to perform. It runs parallel on the server to provide the information to multiple clients. Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request.Node.js basically works on two conceptAsynchronous Non-blocking I/O Non-blocking I/o: Non-blocking i/o  means working with multiple requests without blocking the thread for a single request. I/O basically interacts with external systems such as files, databases. Node.js is not used for CPU-intensive work means for calculations, video processing because a single thread cannot handle the CPU works.",
-        "photo": "https://www.brainfuel.io/images/node-js-new.png"
+        "photo": "https://www.brainfuel.io/images/node-js-new.png", "id":4
     }
 ]
